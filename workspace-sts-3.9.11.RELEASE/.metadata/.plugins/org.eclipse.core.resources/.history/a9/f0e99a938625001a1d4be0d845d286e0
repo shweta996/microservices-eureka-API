@@ -1,0 +1,14 @@
+spring.application.name=zuul-service
+server.port=8080
+
+zuul.host.socket-timeout-millis=30000
+
+
+# Eureka Config
+eureka.client.eureka-server-port=8761
+
+# Test service mapping
+zuul.routes.userservice.path=/user/**
+zuul.routes.userservice.serviceId=user-service
+zuul.routes.noteservice.path=/note/**
+zuul.routes.noteservice.serviceId=note-service

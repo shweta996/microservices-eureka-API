@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="DiscoveryServer"/>
+<aop-project name="Notes"/>
+<aop-project name="User"/>
+<aop-project name="Zuul"/>
+</aop-reference-model>
